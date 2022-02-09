@@ -1,47 +1,59 @@
 body {
   margin: 0;
   font-family: Roboto;
+  background-color: #29539b;
+  background-image: linear-gradient(315deg, #29539b 0%, #1e3b70 74%);
 }
 .wrapper {
   max-width: 960px;
   margin: 0 auto;
 }
 h1 {
-  margin: 40px auto;
-  color: #ff0aa7;
+  margin: 150px auto;
+  color: #e6e7ece1;
   text-align: center;
-  letter-spacing: 9px;
-  font-size: 50px;
+  letter-spacing: 15px;
+  font-size: 45px;
+}
+h4 {
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+
+p {
+  font-size: 20px;
+  letter-spacing: 5px;
 }
 ul {
   padding: 0;
   list-style-type: none;
 }
+
 li {
-  padding: 6px 10px;
-  border: 1px solid #eee;
+  padding: 20px 20px;
+  border: 1px solid rgb(180, 176, 176);
   margin: 10px auto;
+  border-radius: 5px;
 }
 li h4 {
-  color: #ff0aa7;
+  color: #e6e7ece1;
   margin: 0;
   text-transform: capitalize;
 }
 li p {
-  color: #333;
-  margin: 8px 0 0;
+  color: rgba(199, 195, 195, 0.671);
+  margin: 8px 0;
 }
 section {
-  background: #eee;
+  background: rgba(241, 240, 240, 0.199);
   padding: 40px 20px;
   margin: 100px 100px;
   display: flex;
   justify-content: center;
   height: auto;
-  border-radius: 10px 30px;
+  border-radius: 30px 30px;
 }
 form {
-  max-width: 960px;
   margin: 0 auto;
   text-align: center;
 }
@@ -49,7 +61,7 @@ label {
   display: block;
   font-weight: bold;
   font-size: 1.4em;
-  color: #333;
+  color: rgb(247, 247, 247);
   margin: 16px 0 6px;
 }
 input,
@@ -78,7 +90,7 @@ input {
 button {
   color: white;
   border: 0;
-  background: #ff0aa7;
+  background: #2c4aacb9;
   padding: 9px;
   min-width: 80px;
   font-size: 1.8em;
@@ -86,9 +98,13 @@ button {
 }
 footer {
   text-align: center;
-  display: block;
-  color: rgb(102, 95, 95);
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  color: rgb(228, 222, 222);
   margin-top: 40px;
+  padding: 20px;
   font-size: 1.2em;
   letter-spacing: 3px;
 }
