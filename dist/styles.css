@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  font-family: Roboto;
+}
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+}
+h1 {
+  margin: 40px auto;
+  color: #ff0aa7;
+  text-align: center;
+  letter-spacing: 9px;
+  font-size: 50px;
+}
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+li {
+  padding: 6px 10px;
+  border: 1px solid #eee;
+  margin: 10px auto;
+}
+li h4 {
+  color: #ff0aa7;
+  margin: 0;
+  text-transform: capitalize;
+}
+li p {
+  color: #333;
+  margin: 8px 0 0;
+}
+section {
+  background: #eee;
+  padding: 40px 20px;
+  margin: 100px 100px;
+  display: flex;
+  justify-content: center;
+  height: auto;
+  border-radius: 10px 30px;
+}
+form {
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+}
+label {
+  display: block;
+  font-weight: bold;
+  font-size: 1.4em;
+  color: #333;
+  margin: 16px 0 6px;
+}
+input,
+select {
+  display: block;
+  padding: 6px;
+  border: 1px solid #e1e1e1;
+  border-radius: 4px;
+  height: 55px;
+  width: 100%;
+}
+
+select > option {
+  font-size: 20px;
+}
+
+input {
+  text-indent: 5px;
+  font-size: 20px;
+}
+
+.field {
+  display: inline-block;
+  margin: 0 10px;
+}
+button {
+  color: white;
+  border: 0;
+  background: #ff0aa7;
+  padding: 9px;
+  min-width: 80px;
+  font-size: 1.8em;
+  border-radius: 10px;
+}
+footer {
+  text-align: center;
+  display: block;
+  color: rgb(102, 95, 95);
+  margin-top: 40px;
+  font-size: 1.2em;
+  letter-spacing: 3px;
+}
